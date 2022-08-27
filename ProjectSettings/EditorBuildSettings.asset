@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Aircraft Physics/Example/Scenes/Menu.unity
+    guid: 63d1d0bdb4f96d44ea0bad68ea567fa6
+  - enabled: 1
     path: Assets/Aircraft Physics/Example/Scenes/Original scene.unity
     guid: a8f8df708a0d4684aa42d4b382513173
   m_configObjects: {}

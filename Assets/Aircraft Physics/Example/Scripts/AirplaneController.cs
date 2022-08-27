@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR_INTERNAL
 using UnityEditorInternal;
+#endif
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -38,9 +40,11 @@ public class AirplaneController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
+            
             SceneManager.LoadScene(0);
+            
         }
 
         if (Input.GetKey(KeyCode.F))
